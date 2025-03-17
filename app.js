@@ -52,3 +52,12 @@ function mostrarResultados(resultado) {
         resultadoLista.appendChild(li);
     }
 }
+function reiniciarJuego() {
+    participantes = []; // Vaciar la lista de participantes
+    
+    // Limpiar la interfaz
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
+    
+    alert("El juego ha sido reiniciado. Puedes agregar nuevos participantes.");
+}
